@@ -1,20 +1,33 @@
 # CM-001 Concept Model v0.1
 
+**Status:** Deprecated
+**Replaced by:** CM-002 Core Concept Model
+**Deprecated:** 2026-06-27
+
+---
+
+> This concept model has been superseded by CM-002.
+>
+> Key changes:
+> - Platform core object changed from Analysis Session to **Analysis Case**
+> - **Investigation** introduced as independent domain object
+> - **Observation** separated from Evidence and Finding
+> - **Hypothesis** recognized as connecting Evidence and Reasoning
+> - Full domain model now includes: Case, Session, Evidence, Investigation, Observation, Finding, Hypothesis, Root Cause, Knowledge Assets
+
+---
+
 ## Enterprise View
 
+```
 Expertise
-
-↓
-
+    ↓
 Analysis Session
-
-↓
-
+    ↓
 Knowledge Assets
-
-↓
-
+    ↓
 Enterprise Capability
+```
 
 ---
 
