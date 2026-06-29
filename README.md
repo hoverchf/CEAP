@@ -140,11 +140,11 @@ Governance assets define the strategic direction, principles, and decisions.
 | Asset | Description | Status |
 |-------|-------------|--------|
 | [AP-001](00_Governance/Assets/AP-001-Architecture-Principles.md) | Architecture Principles (13 principles) | Approved |
-| [VF-001](00_Governance/Assets/VF-001-Value-Framework.md) | Value Framework — three-tier value hierarchy | Freeze Candidate |
+| [VF-001](00_Governance/Assets/VF-001-Value-Framework.md) | Value Framework — three-tier value hierarchy | Frozen |
 | [VS-001](00_Governance/Assets/VS-001-Vision-Statement.md) | Vision Statement — platform vision and success criteria | Frozen |
 | [PC-001](00_Governance/Assets/PC-001-Project-Charter.md) | Project Charter — project scope, milestones, organizational structure | Frozen |
 | [FP-001](00_Governance/Assets/FP-001-CEAP-Definition.md) | CEAP Definition & Architecture Position | Frozen |
-| [BS-001](00_Governance/Assets/BS-001-Current-State.md) | Current State Analysis — six core challenges | Freeze Candidate |
+| [BS-001](00_Governance/Assets/BS-001-Current-State.md) | Current State Analysis — six core challenges | Frozen |
 
 ### Governance — Architecture Decisions
 
@@ -155,6 +155,12 @@ Architecture Decision Records document key architectural choices.
 | [ADR-001](00_Governance/ADR/ADR-001-Analysis-Case.md) | Analysis Case as Core Domain Object | Accepted |
 | [ADR-002](00_Governance/ADR/ADR-002-Reasoning-Framework.md) | Generic Reasoning Framework | Accepted |
 | [ADR-003](00_Governance/ADR/ADR-003-Evidence-Driven-Analysis.md) | Evidence-Driven Analysis | Accepted |
+| [ADR-004](00_Governance/ADR/ADR-004-Reasoning-Model-Architecture.md) | 8 Reasoning Models — interface, composition, selection | Accepted |
+| [ADR-005](00_Governance/ADR/ADR-005-Agent-Behavior-Specification.md) | Agent execution lifecycle, confidence thresholds, orchestration | Accepted |
+| [ADR-006](00_Governance/ADR/ADR-006-Data-Layer-Specification.md) | Data collection, upload, storage, download, platform adapters | Accepted |
+| [ADR-007](00_Governance/ADR/ADR-007-Knowledge-Asset-Schema.md) | 9 knowledge asset types — schemas and extraction | Accepted |
+| [ADR-008](00_Governance/ADR/ADR-008-Structured-Output-Document.md) | 10-section structured analysis report for expert validation | Accepted |
+| [ADR-009](00_Governance/ADR/ADR-009-Multi-Team-Collaboration.md) | Multi-Team Collaboration — parallel/serial orchestration | Accepted |
 
 ### Design — Concept Models
 

@@ -60,3 +60,48 @@ Architecture Foundation Established
 
 Architecture Foundation Established — Core Concepts Frozen
 Phase 3 (Vision, Charter, Architecture, Domain Model) Completed
+
+## M005: Roadmap Reorganization
+
+### Updated
+
+- ROADMAP.md: Reorganized into 6 phases with priority levels (P0/P1/P2)
+- ROADMAP.md: v0.4 → v1.0
+
+### Architecture Decisions
+
+- D-059: Roadmap reorganized into 6 phases with priority levels
+- D-060: P0 items (Reasoning Model, Agent Behavior) are the next immediate focus
+- D-061: Phase 4 Engineering starts only after P0 items are designed
+
+## M006: Reasoning & Agent Design
+
+### Added
+
+- ADR-004 Reasoning Model Architecture (8 models, interface, composition, selection)
+- ADR-005 Agent Behavior Specification (execution lifecycle, confidence thresholds, orchestration)
+
+### Architecture Decisions
+
+- D-062 ~ D-070: Reasoning Model decisions
+- D-071 ~ D-080: Agent Behavior decisions
+
+## M007: Data & Knowledge & Output
+
+### Added
+
+- ADR-006 Data Layer Specification (collector, upload, storage, download, adapters)
+- ADR-007 Knowledge Asset Schema (9 asset types with schemas)
+- ADR-008 Structured Output Document (10-section analysis report)
+- ADR-009 Multi-Team Collaboration (parallel/serial orchestration)
+
+### Architecture Decisions
+
+- D-081 ~ D-090: Data Layer decisions
+- D-091 ~ D-099: Knowledge Asset decisions
+- D-100 ~ D-104: Structured Output Document decisions
+- D-105 ~ D-114: Multi-Team Collaboration decisions
+
+### Architecture Status
+
+Phase 4 Engineering Design Complete — All ADRs Accepted
