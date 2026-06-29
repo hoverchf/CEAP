@@ -89,7 +89,7 @@ Analysis Case
 
 ---
 
-## 3. B-002: Four-Type Classification
+## 3. B-001: Four-Type Classification
 
 ### Problem
 

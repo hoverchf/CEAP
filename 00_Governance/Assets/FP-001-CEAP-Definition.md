@@ -100,3 +100,4 @@ Data Layer
 - **AP-001** Architecture Principles — 此定义受架构原则约束和指导
 - **CM-002** Core Concept Model — 概念模型实现此架构定位
 - **WF-001** Architecture Workflow — 此定义的产出遵循此工作流
+- **AR-001** Architecture Design — 架构分层实现此定位

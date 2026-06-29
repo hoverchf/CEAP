@@ -1,7 +1,7 @@
 # WF-001 Architecture Workflow
 
-**Status:** Freeze Candidate
-**Version:** v1.0
+**Status:** Frozen
+**Version:** v1.1
 **Created:** 2026-06-27
 **Owner:** Chief Architect
 **Reviewer:** Project Owner
@@ -202,6 +202,8 @@ Deprecated (superseded by newer asset)
 | **Freeze Candidate** | Near-consensus, awaiting review | Minor changes only |
 | **Frozen** | Formal baseline | Only via formal update process |
 | **Deprecated** | Superseded by newer asset | No, read-only reference |
+| **Accepted** | ADR accepted, awaiting further refinement | Minor changes only |
+| **Approved** | Principles approved, baseline set | Only via formal update process |
 
 ### 4.3 Freeze Criteria
 

@@ -1,7 +1,7 @@
 # CM-002 Core Concept Model
 
-**Status:** Freeze Candidate
-**Version:** v1.0
+**Status:** Frozen
+**Version:** v1.2
 **Replaces:** CM-001 (Deprecated)
 **Created:** 2026-06-27
 **Owner:** Chief Architect
@@ -12,49 +12,69 @@
 ## 1. Enterprise View
 
 ```
-Expertise
-    ↓
-Knowledge Assets
-    ↓
-Platform
-    ↓
-Enterprise Capability
+Problem Family
+    └── Analysis Case
+            ├── Investigation(s)
+            ├── Evidence
+            ├── Analysis Session(s)
+            ├── Observation
+            ├── Finding
+            ├── Hypothesis
+            ├── Root Cause
+            └── Knowledge Assets
 ```
 
-This is CEAP's core architecture principle.
+这是 CEAP 的一级架构原则。
 
-No design may violate this value chain.
+以后任何设计不能违反这条价值链。
 
 ---
 
 ## 2. Top-Level Domain Model
 
 ```
-Analysis Case
-    ├── Metadata
-    ├── Problem Description
-    ├── Investigation(s)
-    │       └── produces →
-    ├── Evidence
-    │
-    ├── Analysis Session(s)
-    │       ├── consumes → Evidence
-    │       └── produces →
-    │           ├── Observation
-    │           ├── Finding
-    │           ├── Hypothesis
-    │           └── Decision (→ triggers Investigation)
-    │
-    ├── Root Cause
-    │
-    └── Knowledge Assets
+Problem Family
+    └── Analysis Case
+            ├── Metadata
+            ├── Problem Description
+            ├── Investigation(s)
+            │       └── produces →
+            ├── Evidence
+            │
+            ├── Analysis Session(s)
+            │       ├── consumes → Evidence
+            │       └── produces →
+            │           ├── Observation
+            │           ├── Finding
+            │           ├── Hypothesis
+            │           └── Decision (→ triggers Investigation)
+            │
+            ├── Root Cause
+            │
+            └── Knowledge Assets
 ```
 
 ---
 
 ## 3. Core Concepts
 
-### 3.1 Analysis Case
+### 3.1 Problem Family
+
+**Definition:** The upper-level classification of Analysis Case.
+
+A Problem Family contains multiple Cases. Cases within the same Problem Family share analysis methodology and knowledge assets, and evolve together.
+
+**Key properties:**
+
+- One Problem Family can have multiple Cases
+- One Case belongs to exactly one Problem Family
+- A Case can be moved between Problem Families
+- Problem Family maintains shared analysis methodology (continuously evolving)
+- Problem Family maintains shared knowledge assets
+
+---
+
+### 3.2 Analysis Session
 
 **Definition:** The core business object managed by CEAP.
 
@@ -76,7 +96,7 @@ Problem Report
     ↓
 Case Created
     ↓
-Evidence Collection (via Investigation)
+Investigation (produces Evidence)
     ↓
 Multiple Analysis Sessions
     ↓
@@ -84,7 +104,7 @@ Hypothesis Evolution
     ↓
 Root Cause Confirmation
     ↓
-Knowledge Extraction
+Knowledge Assets
     ↓
 Case Closed
 ```
@@ -145,7 +165,7 @@ Next Session (Optional)
 
 ---
 
-### 3.3 Investigation
+### 3.3 Analysis Case
 
 **Definition:** A real-world activity initiated to acquire new Evidence.
 
@@ -353,3 +373,6 @@ All domain objects in CEAP must belong to exactly one of four types:
 - **FP-001** — This model implements the Core Transformation
 - **CM-003** — Ubiquitous Language provides strict definitions
 - **WF-001** — Asset production follows this workflow
+- **AR-001** — Architecture Design implements this concept model
+- **DM-001** — Domain Model refines this concept model for implementation
+- **CM-003** — Ubiquitous Language provides strict definitions for Agent, Harness, Team

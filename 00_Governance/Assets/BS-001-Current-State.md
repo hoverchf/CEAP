@@ -1,6 +1,6 @@
 # BS-001 Current State Analysis
 
-**Status:** Freeze Candidate
+**Status:** Frozen
 **Version:** v0.1
 **Created:** 2026-06-27
 **Owner:** Chief Architect
@@ -196,3 +196,4 @@ Enterprise Capability
 - **AP-001** Architecture Principles — 原则指导如何系统性解决这些问题
 - **CM-002** Core Concept Model — 概念模型是解决这些问题的载体
 - **WF-001** Architecture Workflow — 此资产的产出遵循此工作流
+- **AR-001** Architecture Design — 六大挑战的架构回应

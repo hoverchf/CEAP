@@ -1,7 +1,7 @@
 # AP-001 Architecture Principles
 
 **Status:** Approved
-**Version:** v1.0
+**Version:** v1.1
 **Created:** 2026-06-27
 **Owner:** Chief Architect
 **Reviewer:** Project Owner
@@ -93,9 +93,9 @@ Repository
 ## 8. Evidence Driven Analysis
 
 ```
-Observation
-    ↓
 Evidence
+    ↓
+Observation
     ↓
 Hypothesis
     ↓
@@ -136,7 +136,7 @@ Validation
 Root Cause
 ```
 
-> **Note:** Principle 8 and Principle 11 describe complementary views of the same analysis process. Principle 8 focuses on the evidential foundation (Observation → Evidence), while Principle 11 focuses on the progressive scoping (Problem → Stage). Both are valid and serve different abstraction levels.
+> **Note:** Principle 8 and Principle 11 describe complementary views of the same analysis process. Principle 8 focuses on the evidential foundation (Evidence → Observation), while Principle 11 focuses on the progressive scoping (Problem → Stage). Both are valid and serve different abstraction levels.
 
 ---
 
@@ -174,3 +174,4 @@ Knowledge must remain independent from implementation.
 - **FP-001** CEAP Definition — This definition is constrained by these principles
 - **WF-001** Architecture Workflow — Principles guide asset production and governance
 - **CM-002** Core Concept Model — Concepts are designed to satisfy these principles
+- **CM-003** Ubiquitous Language — Principles are implemented through strict terminology

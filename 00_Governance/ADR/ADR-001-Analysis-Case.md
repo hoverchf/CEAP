@@ -90,11 +90,10 @@ Analysis Case
     ├── Findings
     ├── Hypotheses
     ├── Root Cause
-    ├── Solution
     └── Knowledge Assets
 ```
 
-**Note:** Knowledge Assets belong to the entire Analysis Case, not to any single Session.
+**Note:** Knowledge Assets belong to the entire Analysis Case, not to any single Session. "Solution" has been removed — Root Cause and Knowledge Assets are the final outputs.
 
 ### Platform Responsibility
 

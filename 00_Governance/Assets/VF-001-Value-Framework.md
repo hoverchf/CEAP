@@ -1,6 +1,6 @@
 # VF-001 Value Framework
 
-**Status:** Freeze Candidate
+**Status:** Frozen
 **Version:** v0.1
 **Created:** 2026-06-27
 **Owner:** Chief Architect
@@ -184,6 +184,8 @@ Enterprise Capability
 |----|----------|--------|
 | D-005 | CEAP 采用 Value Framework，而非 Success Criteria | Frozen |
 | D-006 | 企业价值分为 Operational、Knowledge、Enterprise 三层 | Frozen |
+
+> **Note:** "Knowledge" in D-006 refers to the Knowledge Value layer. The term for assets is "Knowledge Assets" per CM-003.
 | D-007 | Enterprise Capability 是 CEAP 唯一最终价值目标 | Frozen |
 | D-008 | 所有能力建设必须能够映射到 Value Framework | Frozen |
 

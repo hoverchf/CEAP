@@ -141,6 +141,8 @@ Governance assets define the strategic direction, principles, and decisions.
 |-------|-------------|--------|
 | [AP-001](00_Governance/Assets/AP-001-Architecture-Principles.md) | Architecture Principles (13 principles) | Approved |
 | [VF-001](00_Governance/Assets/VF-001-Value-Framework.md) | Value Framework — three-tier value hierarchy | Freeze Candidate |
+| [VS-001](00_Governance/Assets/VS-001-Vision-Statement.md) | Vision Statement — platform vision and success criteria | Frozen |
+| [PC-001](00_Governance/Assets/PC-001-Project-Charter.md) | Project Charter — project scope, milestones, organizational structure | Frozen |
 | [FP-001](00_Governance/Assets/FP-001-CEAP-Definition.md) | CEAP Definition & Architecture Position | Frozen |
 | [BS-001](00_Governance/Assets/BS-001-Current-State.md) | Current State Analysis — six core challenges | Freeze Candidate |
 
@@ -179,6 +181,23 @@ Working rules and processes for architecture governance.
 | Asset | Description | Status |
 |-------|-------------|--------|
 | [WF-001](docs/architecture/WF-001-Architecture-Workflow.md) | Workshop process, asset production, self-review, governance, consistency checks | Freeze Candidate |
+| [WF-002](docs/architecture/WF-002-Architecture-Working-Norms.md) | Chief Architect working norms — pre-change checklist, term protocol, impact assessment, self-review discipline | Freeze Candidate |
+
+### Design — Architecture
+
+Detailed architecture design based on frozen concepts and language.
+
+| Asset | Description | Status |
+|-------|-------------|--------|
+| [AR-001](docs/architecture/AR-001-Architecture-Design.md) | Four-layer system architecture — Data, Agent Harness, Knowledge, Platform | Draft |
+
+### Design — Domain Model
+
+Implementation-level domain model based on concept models and architecture design.
+
+| Asset | Description | Status |
+|-------|-------------|--------|
+| [DM-001](docs/architecture/DM-001-Domain-Model.md) | Implementation-level domain model with Problem Family, Session, Evidence Chain | Draft |
 
 ### Workshop Records
 
