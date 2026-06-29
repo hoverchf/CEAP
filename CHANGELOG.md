@@ -42,7 +42,13 @@ Architecture Foundation Established
 - ADR-001: Removed "Solution" from Case Contents
 - VF-001: Clarified Knowledge vs Knowledge Assets distinction
 - README.md: Full asset inventory with new contributor guide, removed duplicate entries
-- ROADMAP.md: Updated with all completed assets
+- ROADMAP.md: Updated to v1.0
+
+## M008: Phase 4 Completion
+
+### Updated
+
+- ROADMAP.md: v0.4 → v1.0 (Phase 4 Engineering Design Complete)
 - CHANGELOG.md: Restructured with M002/M003/M004 milestones
 - WF-002: New — Chief Architect working norms
 

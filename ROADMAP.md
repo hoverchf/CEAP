@@ -2,7 +2,7 @@
 
 ## Current Version
 
-Bootstrap v0.4 — Phase 3 Complete, Phase 4 Starting
+Bootstrap v1.0 — Phase 4 Engineering Design Complete, Phase 5 Engineering Starting
 
 ---
 
